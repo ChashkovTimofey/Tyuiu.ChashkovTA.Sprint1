@@ -1,5 +1,5 @@
-﻿using Tyuiu.ChashkovTA.Sprint1.Task1.V14.Lib;
-namespace Tyuiu.ChashkovTA.Sprint1.Task1.V14
+﻿using Tyuiu.ChashkovTA.Sprint1.Task1.V9.Lib;
+namespace Tyuiu.ChashkovTA.Sprint1.Task1.V9
 {
     class Program
     {
@@ -11,8 +11,8 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task1.V14
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #14                                                             *");
-            Console.WriteLine("* Выполнил: Чашков Тимофей Александрович | ИИПБ-24-1                         *");
+            Console.WriteLine("* Вариант #9                                                              *");
+            Console.WriteLine("* Выполнил: Чашков Тимофей Александрович | ИИПБ-24-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *"); 
             
@@ -22,6 +22,14 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task1.V14
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+
+            double x, y;
+
+            Console.WriteLine("Введите значение Х:");
+            x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение Y:");
+            y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*                                                                         *");
@@ -33,7 +41,7 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task1.V14
 
             DataService ds = new DataService();
 
-            var result = ds.YOURFUNCTION();
+            var result = ds.Calculate(x, y);
             Console.WriteLine(result);
             Console.ReadKey();
         }

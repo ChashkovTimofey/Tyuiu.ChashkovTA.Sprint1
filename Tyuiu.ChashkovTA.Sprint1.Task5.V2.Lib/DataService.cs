@@ -6,7 +6,7 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task5.V2.Lib
     {
         public int FahrenheitToСelsius(double temp)
         {
-            return Convert.ToInt32((temp - 32) * (5 / 9));
+            return Convert.ToInt32((temp - 32) * (5.0 / 9.0));
         }
     }
 }

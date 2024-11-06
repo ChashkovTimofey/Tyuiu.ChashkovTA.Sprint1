@@ -1,5 +1,5 @@
-﻿using Tyuiu.ChashkovTA.Sprint1.Task5.V2.Lib;
-namespace Tyuiu.ChashkovTA.Sprint1.Task5.V2
+﻿using Tyuiu.ChashkovTA.Sprint1.Task7.V18.Lib;
+namespace Tyuiu.ChashkovTA.Sprint1.Task7.V18
 {
     class Program
     {
@@ -10,8 +10,8 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task5.V2
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("*                                                                         *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #2                                                            *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #18                                                             *");
             Console.WriteLine("* Выполнил: Чашков Тимофей Александрович | ИИПБ-24-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *"); 
@@ -23,7 +23,7 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task5.V2
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double x;
+            double x, y;
 
             Console.WriteLine("Введите значение x:");
             x = Convert.ToDouble(Console.ReadLine());
@@ -41,7 +41,7 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task5.V2
 
             DataService ds = new DataService();
 
-            var result = ds.FahrenheitToСelsius(x);
+            var result = ds.Calculate(x, y);
             Console.WriteLine(result);
             Console.ReadKey();
         }

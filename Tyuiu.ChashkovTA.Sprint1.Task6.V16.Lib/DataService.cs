@@ -7,7 +7,6 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task6.V16.Lib
         public bool CheckSpecSymbols(string value)
         {
             return value.Contains('!') || value.Contains('?');
-
         }
     }
 }

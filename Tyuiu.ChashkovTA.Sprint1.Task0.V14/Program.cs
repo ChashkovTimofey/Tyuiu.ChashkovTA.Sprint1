@@ -24,7 +24,7 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task0.V14
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("* 2 * 3 * 3 + 7                                                           *");
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("***************************************************************************");
@@ -33,7 +33,7 @@ namespace Tyuiu.ChashkovTA.Sprint1.Task0.V14
 
             DataService ds = new DataService();
 
-            var result = ds.YOURFUNCTION();
+            var result = ds.Calculate();
             Console.WriteLine(result);
             Console.ReadKey();
         }
